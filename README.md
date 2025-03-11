@@ -90,9 +90,10 @@ Network topology files (`.net`) define the network structure using the format:
 
 ### Example: `linear-3.net`
 
+```sh
 0 0 1 1 
 0 1 2 1
-
+```
 This is a linear topology with three nodes (0-1-2), where each link has a cost of 1, forming a simple chain.
 Setting link cost to 255 disables a link.
 
